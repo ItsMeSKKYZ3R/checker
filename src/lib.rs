@@ -9,7 +9,7 @@ impl Checker {
     ///
     /// This function takes a reference to any of your type and check if the type into the generic is the same that the type of your data.
     /// ```
-    /// use checker::Checker;
+    /// use checking::Checker;
     ///
     /// fn main() {
     ///     let result: bool = Checker::type_of::<i32>(&"test".to_string());
@@ -30,7 +30,7 @@ impl Checker {
     ///
     /// All datas needs to derive PartialEq.
     /// ```
-    /// use checker::Checker;
+    /// use checking::Checker;
     ///
     /// #[derive(PartialEq)]
     /// struct Test {
