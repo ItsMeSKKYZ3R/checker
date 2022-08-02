@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "A simple data checker for Rust"
 license = "MIT"
-keywords = ["type", "check", "checker", "checking", "typechecking", "typechecker"]
+keywords = ["type", "check", "checker", "checking", "typechecking"]
 authors = ["SKKYZ3R <skkyz3r.dev@gmail.com>"]
 
 [dependencies]
